@@ -44,48 +44,6 @@ export default function Home() {
                     <Image src="/thirteen.svg" alt="13" width={40} height={31} priority />
                 </div>
             </div>
-
-            <div className={styles.grid}>
-                <a
-                    href="https://beta.nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-                    className={styles.card}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    <h2 className={inter.className}>
-                        Pham <span>-&gt;</span>
-                    </h2>
-                    <p className={inter.className}>
-                        Find in-depth information about Next.js features and API.
-                    </p>
-                </a>
-
-                <a
-                    href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-                    className={styles.card}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    <h2 className={inter.className}>
-                        Cong <span>-&gt;</span>
-                    </h2>
-                    <p className={inter.className}>Explore the Next.js 13 playground.</p>
-                </a>
-
-                <a
-                    href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-                    className={styles.card}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    <h2 className={inter.className}>
-                        Chinh <span>-&gt;</span>
-                    </h2>
-                    <p className={inter.className}>
-                        Instantly deploy your Next.js site to a shareable URL with Vercel.
-                    </p>
-                </a>
-            </div>
         </main>
     )
 }
