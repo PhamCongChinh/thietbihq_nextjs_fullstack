@@ -53,7 +53,7 @@ export default function Home() {
                     rel="noopener noreferrer"
                 >
                     <h2 className={inter.className}>
-                        Docs <span>-&gt;</span>
+                        Pham <span>-&gt;</span>
                     </h2>
                     <p className={inter.className}>
                         Find in-depth information about Next.js features and API.
@@ -67,7 +67,7 @@ export default function Home() {
                     rel="noopener noreferrer"
                 >
                     <h2 className={inter.className}>
-                        Templates <span>-&gt;</span>
+                        Cong <span>-&gt;</span>
                     </h2>
                     <p className={inter.className}>Explore the Next.js 13 playground.</p>
                 </a>
@@ -79,7 +79,7 @@ export default function Home() {
                     rel="noopener noreferrer"
                 >
                     <h2 className={inter.className}>
-                        Deploy <span>-&gt;</span>
+                        Chinh <span>-&gt;</span>
                     </h2>
                     <p className={inter.className}>
                         Instantly deploy your Next.js site to a shareable URL with Vercel.
