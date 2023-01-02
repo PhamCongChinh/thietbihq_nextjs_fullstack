@@ -1,9 +1,11 @@
 const express = require('express') // Sử dụng framework express
 const next = require('next') // Include module next
 
-const port = parseInt(process.env.PORT, 10) || 3000
+//const port = parseInt(process.env.PORT, 10) || 3000
+const PORT = 3000
+const HOSTNAME='localhost'
 const dev = process.env.NODE_ENV !== 'production'
-const app = next({ dev })
+const app = next({ dev, hostname: HOSTNAME, port: PORT })
 const handle = app.getRequestHandler()
 
 app.prepare().then(() => {
@@ -14,8 +16,8 @@ app.prepare().then(() => {
     server.all('*', (req, res) => {
         return handle(req, res)
     })
-    server.listen(port, err => {
+    server.listen(PORT, err => {
         if (err) throw err
-        console.log(`> Ready on http://localhost:${port}`)
+        console.log(`> Ready on http://localhost:${PORT}`)
     })
 })
