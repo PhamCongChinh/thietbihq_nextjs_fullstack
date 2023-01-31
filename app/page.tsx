@@ -1,12 +1,10 @@
+import Image from 'next/image'
 import { Inter } from '@next/font/google'
+//import styles from './page.module.css'
 
-//const inter = Inter({ subsets: ['latin'] })
-import { cookies } from 'next/headers'
+const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
-    const nextCookies = cookies()
-    const accessToken = nextCookies.get('accessToken')
-    console.log("accessToken Home", accessToken)
     return (
         <main>
             <div>

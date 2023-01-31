@@ -1,6 +1,16 @@
+'use client'
 
-export default function Dashboard() {
-    return (
-        <h1>Dashboard</h1>
+import Link from "next/link"
+
+const Dashboard = () => {
+    return(
+        <div>
+            <h1>Dashboard</h1>
+            <Link href={'/dashboard/user'}>User</Link>
+            <Link href={'/dashboard/category'}>Category</Link>
+        </div>
+        
     )
 }
+
+export default Dashboard

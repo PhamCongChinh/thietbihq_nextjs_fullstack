@@ -1,12 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    experimental: {
-        appDir: true,
-    },
-    eslint: {
-        ignoreDuringBuilds: true,
-    },
-    skipTrailingSlashRedirect: true,
+  experimental: {
+    appDir: true,
+  },
 }
 
 module.exports = nextConfig
